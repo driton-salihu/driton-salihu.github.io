@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Driton Salihu",
+    "label": "Doctoral Candidate",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "driton.salihu@tum.de",
+    "phone": "(+49) 015783647767",
+    "url": "https://driton-salihu.github.io/",
+    "summary": "PhD student at the Technical University of Munich with a focus on 2D/3D Computer Vision, Point Cloud Analysis, 3D Reconstruction (Image and Point Cloud-based), Efficient AI, Machine Learning and Representation Learning.",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -24,7 +24,7 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
+      "name": "Researcher Doctoral Candidate",
       "position": "Professor of Theoretical Physics",
       "url": "https://example.com",
       "startDate": "1933-01-01",

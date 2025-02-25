@@ -1,0 +1,14 @@
+{
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wrappingIndent": "same",
+    "editor.wordWrapColumn": 100,
+    "workbench.editor.showTabs": "multiple",
+    "latex-workshop.latex.autoClean.run": "onBuilt",
+    "grammarly.selectors": [
+        {
+            "language": "latex",
+            "scheme": "file"
+        }
+    ],
+}
+

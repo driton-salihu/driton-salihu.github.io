@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
         },{id: "nav-cv",
           title: "CV",
           description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
@@ -31,8 +24,8 @@ ninja.data = [{
             window.location.href = "/cv/";
           },
         },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          title: "Teaching",
+          description: "During my time as a PhD student at the Technical University of Munich, I took part in the following lectures and exercises as a teaching assistant. My main task was to write and correct the exam, creating and teaching exercises, organize the course and occasionally give the lecture when Prof. Steinbach was not available.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
@@ -445,6 +438,16 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "teaching-digital-signal-processing",
+          title: 'Digital Signal Processing',
+          description: "Applied advanced theoretical concepts of digital signal processing. Master Course (MSEI) at the Department of Electrical and Computer Engineering, Technical University of Munich, Germany.",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/1_dsp/";
+            },},{id: "teaching-software-engineering-lab",
+          title: 'Software Engineering Lab',
+          description: "Bachelor Course (BSEI) at the Department of Electrical and Computer Engineering, Technical University of Munich, Germany.",
+          section: "Teaching",handler: () => {
+              window.location.href = "/teaching/2_swlab/";
             },},{
         id: 'social-email',
         title: 'email',

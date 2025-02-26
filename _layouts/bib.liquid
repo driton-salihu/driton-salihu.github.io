@@ -40,7 +40,7 @@
         {% else %}
           {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
           
-          {% if preview_ext == 'mp4' or preview_ext == 'mkv' %}
+          {% if preview_ext == 'mp4' or preview_ext == 'mkv'  %}
             <video class="preview z-depth-1 rounded" autoplay muted loop playsinline style="max-width: 200px; width: 100%; height: auto;">
               <source src="{{ entry_path }}" type="video/mp4">
               Your browser does not support the video tag.
